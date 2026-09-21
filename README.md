@@ -1,8 +1,10 @@
 # Assignment 1: Build the Look and Feel of a Task Manager
-## INFO 153A/253A Front-End Web Architecture
+## INFO 153A/253A Front-End Web Architecture - Fall 2026
 
 **Points:** 100 points  
-**Individual Assignment**
+**Individual Assignment**  
+**Released:** Monday, September 21, 2026, 9 AM PT  
+**Due:** Friday, October 2, 2026, 9 AM PT
 
 ---
 
@@ -60,7 +62,7 @@ The interface consists of three main sections:
 #### Visual Specifications
 - **Background Color**: `#dc4c3e`
 - **Text Color**: `#ffffff`
-- **Icons**: Use provided icons from assets zip file (menu, search, check icons)
+- **Icons**: Use the provided icons in `assets/` (menu, search, check icons)
 
 #### Functional Requirements
 - **Quick Find Box**: 
@@ -85,7 +87,7 @@ The interface consists of three main sections:
   - Inbox (with count: 5)
   - Today (with count: 5)  
   - Upcoming (no count shown)
-- **Icons**: Use only the provided icons from assets zip file
+- **Icons**: Use only the provided icons in `assets/`
 - **Structure**: Implement using HTML unordered lists
 - **Hover States**: Not required for this assignment
 
@@ -118,12 +120,12 @@ your-project/
 ├── index.html
 ├── styles.css
 └── assets/
-    ├── menu-icon.png
-    ├── search-icon.png
-    ├── check-icon.png
-    ├── inbox-icon.png
-    ├── today-icon.png
-    └── upcoming-icon.png
+    ├── menu_icon.png
+    ├── search_icon.png
+    ├── check_icon.png
+    ├── inbox_icon.png
+    ├── calendar_icon.png
+    └── upcoming_icon.png
 ```
 
 ### Responsive Design Requirements
@@ -146,10 +148,16 @@ your-project/
 2. **styles.css** - All styling and responsive design
 3. **assets/** - Copy of provided icon assets
 
-### Submission Requirements
-- Upload complete project folder to course submission system
-- Ensure all files are properly linked and functional
-- Test responsive behavior at 480px breakpoint
+### Getting the starter and submitting (GitHub, no Classroom)
+1. **Fork** this template repository into your own GitHub account (the Fork button, top right). Keep the fork **public** and name it `assignment-1-<your-github-username>`.
+2. **Clone** your fork: `git clone https://github.com/<your-github-username>/assignment-1-<your-github-username>.git`
+3. Build in `index.html` and `styles.css`; the icons are already in `assets/` and the mockup is `task-manager-mockup.png`.
+4. **Commit and push** as you go. Your last push before the deadline is what gets graded.
+5. On bCourses, open Assignment 1 and submit the **URL of your fork** (the repository page) as the Website URL.
+
+### Before you submit
+- Ensure all files are properly linked and functional (open `index.html` from a fresh clone)
+- Test responsive behavior at the 480px breakpoint
 - Validate HTML and CSS for errors
 
 ---
